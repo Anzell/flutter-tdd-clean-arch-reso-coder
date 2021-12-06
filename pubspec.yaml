@@ -1,0 +1,42 @@
+name: tddflutter
+description: A new Flutter project, based in the TDD course, from ResoCoder.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  #service locator
+  get_it: ^7.2.0
+
+  #state management
+  flutter_bloc: ^8.0.0
+
+  #helpers
+  equatable: ^2.0.3
+  dartz: ^0.10.1
+  connectivity: ^3.0.6
+
+  #local cache
+  shared_preferences: ^2.0.9
+
+  #services
+  http: ^0.13.4
+
+  #icons for cupertino
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.0.16
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
