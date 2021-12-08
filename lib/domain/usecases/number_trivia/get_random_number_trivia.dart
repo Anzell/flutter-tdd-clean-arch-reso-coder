@@ -1,5 +1,4 @@
 import 'package:dartz/dartz.dart';
-import 'package:equatable/equatable.dart';
 import 'package:tddflutter/core/error/failures.dart';
 import 'package:tddflutter/core/usecases/usecase.dart';
 import 'package:tddflutter/domain/entities/number_trivia.dart';

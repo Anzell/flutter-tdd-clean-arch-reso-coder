@@ -1,5 +1,7 @@
-import 'package:equatable/equatable.dart';
-
-abstract class Failure extends Equatable {
-  Failure([List properties = const <dynamic>[]]) : super();
+abstract class Failure {
+  Failure([List properties = const <dynamic>[]]);
 }
+
+class ServerFailure implements Failure {}
+
+class CacheFailure implements Failure {}
