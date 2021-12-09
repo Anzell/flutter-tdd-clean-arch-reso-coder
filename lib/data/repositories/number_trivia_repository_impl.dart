@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:tddflutter/core/error/exceptions.dart';
 
 import 'package:tddflutter/core/error/failures.dart';
-import 'package:tddflutter/core/platform/network_info.dart';
+import 'package:tddflutter/core/network/network_info.dart';
 import 'package:tddflutter/data/datasources/number_trivia_local_datasource.dart';
 import 'package:tddflutter/data/datasources/number_trivia_remote_datasource.dart';
 import 'package:tddflutter/domain/entities/number_trivia.dart';
