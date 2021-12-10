@@ -7,7 +7,7 @@ abstract class NumberTriviaControllerState extends Equatable {
   List<Object> get props => [];
 }
 
-class NumberTriviaControllerEmpty extends NumberTriviaControllerState {}
+class Empty extends NumberTriviaControllerState {}
 
 class Loading extends NumberTriviaControllerState {}
 
