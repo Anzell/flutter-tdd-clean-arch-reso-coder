@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:tddflutter/di/injector.dart';
 
-void main() {
+Future<void> main() async {
+  await Injector.init();
   runApp(const MyApp());
 }
 
