@@ -3,6 +3,7 @@ import 'package:tddflutter/di/injector.dart';
 import 'package:tddflutter/presentation/number_trivia/number_trivia_screen.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await Injector.init();
   runApp(MyApp());
 }
